@@ -57,4 +57,5 @@ python main.py
 
 python model.py 
 
+pls note that you can add your own compliance logic in the text file and pass it to the llm with queries but make sure its in detail .
 after successfully running these commands you will be able to see a cli version of the ai agent running and asking for queries .
