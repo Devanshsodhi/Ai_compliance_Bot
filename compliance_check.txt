@@ -1,0 +1,7 @@
+Compliance Check Rules:
+1. For a order id there should exist 3 documents invoice , purchase order and order summary each containing the same order id .
+2. find customer name from invoice and purchase order and they should be same .
+3. total price of invoice , total price of purchase order and total price of order summary should all be equal and if total price is not mentioned calculate it .
+
+- ✅ or ❌ per rule
+- Final Status: PASS or FAIL
