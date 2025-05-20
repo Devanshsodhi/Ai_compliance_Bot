@@ -1,0 +1,50 @@
+[
+    {
+        "type": "order_summary",
+        "order_id": "10250",
+        "shipping_details": {
+            "ship_name": "Hanari Carnes",
+            "ship_address": "Rua do Pa\u00e7o, 67",
+            "ship_city": "Rio de Janeiro",
+            "ship_region": "South America",
+            "ship_postal_code": "05454-876",
+            "ship_country": "Brazil"
+        },
+        "customer_details": {
+            "customer_id": "HANAR",
+            "customer_name": "Hanari Carnes"
+        },
+        "employee_details": {
+            "employee_name": "Margaret Peacock"
+        },
+        "shipper_details": {
+            "shipper_id": "2",
+            "shipper_name": "United Package"
+        },
+        "order_details": {
+            "order_date": "2016-07-08",
+            "shipped_date": "2016-07-12"
+        },
+        "products": [
+            {
+                "product_name": "Jack's New England Clam Chowder",
+                "quantity": 10,
+                "unit_price": 7.7,
+                "total": 77.0
+            },
+            {
+                "product_name": "Manjimup Dried Apples",
+                "quantity": 35,
+                "unit_price": 42.4,
+                "total": 1484.0
+            },
+            {
+                "product_name": "Louisiana Fiery Hot Pepper Sauce",
+                "quantity": 15,
+                "unit_price": 16.8,
+                "total": 252.0
+            }
+        ],
+        "total_price": 1813.0
+    }
+]

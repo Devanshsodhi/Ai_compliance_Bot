@@ -1,0 +1,28 @@
+[
+    {
+        "type": "purchase_order",
+        "order_id": "10250",
+        "order_date": "2016-07-08",
+        "customer_name": "Mario Pontes",
+        "products": [
+            {
+                "product_id": "41",
+                "product_name": "Jack's New England Clam Chowder",
+                "quantity": 10,
+                "unit_price": 7.7
+            },
+            {
+                "product_id": "51",
+                "product_name": "Manjimup Dried Apples",
+                "quantity": 35,
+                "unit_price": 42.4
+            },
+            {
+                "product_id": "65",
+                "product_name": "Louisiana Fiery Hot Pepper Sauce",
+                "quantity": 15,
+                "unit_price": 16.8
+            }
+        ]
+    }
+]
