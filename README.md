@@ -21,7 +21,9 @@ Note: I Did use spacy as well and it yielded great results for scanned invoices 
 3.	Layout-aware Model extraction: using LayoutLMv2 and Tesseract2 
  PDF → Images (Poppler) → OCR (Tesseract) → Formatted for LayoutLMv2 → Key-value extraction.
 The issue faced with this was over and over again the model was not able to detect Detectron2 in the LayoutLMv2 and while using layout parser , and when switched to alternatives rather than using Detectron2 the models did not give good enough results . You can refer the following colab links to see my work.
-. Colab1   colab2 colab 3 
+. (https://colab.research.google.com/drive/1MxdYmHblELV7dc8eYxAJcGMJzEvf0hc8?usp=sharing)
+(https://colab.research.google.com/drive/1J_amChX29cA-2kgIB-V7UtBOGuYlM8xc?usp=sharing)
+(https://colab.research.google.com/drive/1JAhedvUvdOI0-Y1KdXyZzGRFF1OSnGw6?usp=sharing)
 
 Conclusion : What I wanted to do was for me automate the whole process of data extraction as well and I have partially tried to apply that in the google colab notebooks before I could integrate it in my project as the methods used for automated data extraction did not yield high results as I was unable to fine tune them because of the lack of labelled data as the data labelling tools for fine tuning layoutlmv2 were paid and Google’s document ai was not working for free  and environment errors in my Laptop. Although with some help and guidance I feel I will be able to fully automate that part of the process. 
 
