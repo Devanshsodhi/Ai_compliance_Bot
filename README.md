@@ -27,8 +27,11 @@ The issue faced with this was over and over again the model was not able to dete
 
 Conclusion : What I wanted to do was for me automate the whole process of data extraction as well and I have partially tried to apply that in the google colab notebooks before I could integrate it in my project as the methods used for automated data extraction did not yield high results as I was unable to fine tune them because of the lack of labelled data as the data labelling tools for fine tuning layoutlmv2 were paid and Google’s document ai was not working for free  and environment errors in my Laptop. Although with some help and guidance I feel I will be able to fully automate that part of the process. 
 
+I wanted to fine tune the LILT model for automatic text extraction but again the data labelling tool used for this isnt free anymore .
+https://youtu.be/EVONngnrJbE?si=Fv7TahG1XpBHLOBs
 
 **Phase 2: LLM Integration (LangChain + Ollama) **
+
 LangChain: for orchestrating prompts, memory, tools, and chains
 Ollama: to run lightweight open-source LLM locally, LLAMA 3.1 was used in the project. 
 4.	Document Parsing: from phase 1 the structured Json data for each type of document is already available and these Json objects in the output folder serve as the knowledge base for the LLM. These objects are then vector embedded and then passed to the large language model .
@@ -40,3 +43,15 @@ Langchain is basically used for chaining together LLMs, vector stores and retrie
 
 This is a demo for the CLI of the project. 
 ![image](https://github.com/user-attachments/assets/a8ebb5ea-27b1-4a37-aa24-dfdc16ec1c19)
+
+To run the application on your System make sure to have Ollama installed on your computer , then download the files of this project or clone the repository 
+
+env\Scripts\activate  
+
+pip install -r full_requirements.txt
+
+python main.py
+
+python model.py 
+
+after successfully running these commands you will be able to see a cli version of the ai agent running and asking for queries .
