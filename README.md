@@ -28,6 +28,8 @@ The issue faced with this was over and over again the model was not able to dete
 (https://colab.research.google.com/drive/1J_amChX29cA-2kgIB-V7UtBOGuYlM8xc?usp=sharing)
 (https://colab.research.google.com/drive/1JAhedvUvdOI0-Y1KdXyZzGRFF1OSnGw6?usp=sharing)
 
+4.Reinforcement Based System : intelligent decision-making layer to the document compliance pipeline, allowing the system to learn from past outcomes and improve over time instead of relying only on static rules or thresholds using OpenAi gym , stable baselines 3 and python and numpy for the decision making logic .
+
 Conclusion : What I wanted to do was for me automate the whole process of data extraction as well and I have partially tried to apply that in the google colab notebooks before I could integrate it in my project as the methods used for automated data extraction did not yield high results as I was unable to fine tune them because of the lack of labelled data as the data labelling tools for fine tuning layoutlmv2 were paid and Google’s document ai was not working for free  and environment errors in my Laptop. Although with some help and guidance I feel I will be able to fully automate that part of the process. 
 
 I wanted to fine tune the LILT model for automatic text extraction but again the data labelling tool used for this isnt free anymore .
