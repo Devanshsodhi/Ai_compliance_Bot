@@ -4,7 +4,7 @@ Steps to execute the scripts at the end , PLS READ THIS DOCUMENT TO UNDERSTAND W
 **# Ai_compliance_Bot**
 Ai compliance bot for documents like invoices , purchase order and order summary etc  .
 System Architecture :
-![image](https://github.com/user-attachments/assets/28b932dd-f800-4342-8555-bd7baa914932)
+![image]([https://github.com/user-attachments/assets/28b932dd-f800-4342-8555-bd7baa914932](https://github.com/Devanshsodhi/Ai_compliance_Bot/blob/main/__pycache__/Screenshot%202025-10-07%20204233.png?raw=true))
 **First Phase: Text Extraction **
 The goal of this project is to automate document compliance checks using natural language queries. The system takes various types of documents—PDFs, scanned PDFs, and images—and extracts their content into structured formats for further compliance analysis. For demonstration, three computer-generated PDFs have been used:
 •	Invoice
