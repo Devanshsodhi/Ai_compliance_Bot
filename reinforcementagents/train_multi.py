@@ -42,6 +42,3 @@ if __name__ == "__main__":
     # simple demo
     obs = build_observation(model_pred=1, model_conf=0.85, missing_fields=1, doc_type_str="invoice", hist_success=0.9)
     print("Obs shape:", obs.shape)
-    # Replace with actual model paths
-    # print(inference_binary("models/binary_agent.zip", obs))
-    # print(inference_continuous("models/continuous_agent.zip", obs))
